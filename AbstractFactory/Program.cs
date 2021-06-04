@@ -8,6 +8,13 @@ namespace AbstractFactory
     {
         static void Main(string[] args)
         {
+
+            Program myProgram = new Program();
+            myProgram.Start();
+        }
+
+        void Start()
+        { 
             IComputerFactory factory = new HighBudgetFactory();
             ComputerShop computerShop = new ComputerShop(factory);
             Computer computer = computerShop.AssembleComputer();
