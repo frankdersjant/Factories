@@ -1,6 +1,6 @@
-﻿using AbstractFactory.Models.Interfaces;
+﻿using FactoryMethod.Models.Interfaces;
 
-namespace AbstractFactory.Models
+namespace FactoryMethod.Models.Interfaces
 {
     public class Computer
     {

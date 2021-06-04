@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AbstractFactory.Models.Interfaces
+namespace FactoryMethod.Models.Interfaces
 {
-    public interface IHardDisk
+    public interface IMonitor
     {
     }
 }

@@ -1,7 +1,6 @@
-﻿using AbstractFactory.Models;
-using AbstractFactory.Models.Interfaces;
+﻿using FactoryMethod.Models.Interfaces;
 
-namespace AbstractFactory
+namespace FactoryMethod.Models
 {
     public abstract class ComputerShop
     {
