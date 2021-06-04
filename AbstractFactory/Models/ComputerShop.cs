@@ -21,7 +21,6 @@ namespace AbstractFactory.Models
             computer.processor = _factory.Getprocessor();
 
             return computer;
-
         }
     }
 }

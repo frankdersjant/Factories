@@ -7,5 +7,10 @@ namespace AbstractFactory.Models
         public IProcessor processor { get; set; }
         public IHardDisk hardDisk { get; set; }
         public IMonitor monitor { get; set; }
+
+        public void  Test()
+        {
+
+        }
     }
 }
